@@ -1,22 +1,14 @@
-# 🌍 Visa Application Status Checker
+##  Cool Things It Can Do
 
-## 🎯 What Is This?
+-  Safe login with passport number and special code
+-  See your application status on a simple dashboard
+-  Admin panel for managing all applications
+-  Super secure to keep your information safe
+-  All your important information is encrypted
 
-This is a super easy-to-use website where:
-- **Travelers** can check their visa application status
-- **Administrators** can update visa application statuses
+##  How to Start Everything
 
-## ✨ Cool Things It Can Do
-
-- 🔒 Safe login with passport number and special code
-- 📊 See your application status on a simple dashboard
-- 👩‍💼 Admin panel for managing all applications
-- 🛡️ Super secure to keep your information safe
-- 🔐 All your important information is encrypted
-
-## 🚀 How to Start Everything
-
-### 🔧 Setting Up the Backend (Server)
+###  Setting Up the Backend (Server)
 
 1. **Get the Code Ready**
    ```bash
@@ -41,7 +33,7 @@ This is a super easy-to-use website where:
    npm start
    ```
 
-### 🎨 Setting Up the Frontend (Website)
+###  Setting Up the Frontend (Website)
 
 1. **Get the Code Ready**
    ```bash
@@ -61,7 +53,7 @@ This is a super easy-to-use website where:
    npm run build
    ```
 
-### 🔄 Keeping Everything Updated
+###  Keeping Everything Updated
 
 We have a special script to safely update all the parts:
 
@@ -73,7 +65,7 @@ chmod +x backend/scripts/update-dependencies.sh
 ./backend/scripts/update-dependencies.sh
 ```
 
-## 👨‍💻 How to Use as a Regular Person
+##  How to Use as a Regular Person
 
 1. **Go to the Website**
    - Open your web browser and go to the website address
@@ -87,7 +79,7 @@ chmod +x backend/scripts/update-dependencies.sh
    - Your application status will appear on the dashboard
    - You'll see details like current status, submission date, and any messages
 
-## 👩‍💼 How to Use as an Administrator
+##  How to Use as an Administrator
 
 1. **Go to the Admin Page**
    - Open your web browser and go to the website address + "/admin"
@@ -107,7 +99,7 @@ chmod +x backend/scripts/update-dependencies.sh
    - Add any notes or comments
    - Click "Update Status" to save changes
 
-## 🛠️ Common Problems and Fixes
+##  Common Problems and Fixes
 
 ### The Website Won't Load
 - Check if your internet is working
@@ -129,7 +121,7 @@ chmod +x backend/scripts/update-dependencies.sh
 - Check if the backend server address is correct in your configuration
 - Try deleting the `node_modules` folder and running `npm install` again
 
-## 🔒 Security Features
+##  Security Features
 
 - HTTPS encryption for all connections
 - Protection against common attacks (SQL injection, XSS, CSRF)
@@ -137,12 +129,8 @@ chmod +x backend/scripts/update-dependencies.sh
 - Data encryption for sensitive information
 - Regular security updates
 
-## 📚 More Information
+##  More Information
 
 - For detailed deployment instructions, see `deployment-guide.md`
 - For security best practices, see `security-guide.md`
 - For development tasks and progress, see `task.md`
-
-## 🆘 Need Help?
-
-If you're still having problems, please contact our support team at support@visastatuschecker.com
